@@ -1,6 +1,7 @@
 export default function Footer(){
     return(
-        <footer className="site-footer">
+        <div>
+             <footer className="site-footer">
     <div className="container">
       <div className="row">
         <div className="ml-auto col-lg-4 col-md-5">
@@ -17,5 +18,6 @@ export default function Footer(){
       </div>
     </div>
   </footer>
+        </div>
     )
 }

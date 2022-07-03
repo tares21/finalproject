@@ -1,25 +1,25 @@
-import "../assets/css/aos.css"
-import "../assets/css/bootstrap.min.css"
-import "../assets/css/font-awesome.min.css"
-import "../assets/css/tooplate-gymso-style.css"
-import About from "../components/About";
-import Class from "../components/Class";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import MenuBar from "../components/MenuBar";
-import Modal from "../components/Modal";
-import Schedule from "../components/Schedule";
+import "../assests/css/aos.css"
+import "../assests/css/bootstrap.min.css"
+import "../assests/css/font-awesome.min.css"
+import "../assests/css/tooplate-gymso-style.css"
+import About from "../components/About/Index"
+import Class from "../components/Class"
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
+import Hero from "../components/Hero"
+import MenuBar from "../components/MenuBar"
+import Modal from "../components/Modal"
+import Schedule from "../components/Schedule"
 
 export default function Homepage(){
     return(
-<div>
-    {/* MENU BAR */}
-    <MenuBar/>
-    {/* HERO */}
-    <Hero/>
+       <div>
+  {/* MENU BAR */}
+  <MenuBar/>
+  {/* HERO */}
+  <Hero/>
   {/* ABOUT */}
-    <About/>
+  <About/>
   {/* CLASS */}
   <Class/>
   {/* SCHEDULE */}
@@ -27,7 +27,7 @@ export default function Homepage(){
   {/* CONTACT */}
   <Contact/>
   {/* FOOTER */}
-  <Footer/>
+ <Footer/>
   {/* Modal */}
   <Modal/>
 </div>

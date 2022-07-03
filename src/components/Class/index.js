@@ -1,6 +1,7 @@
 export default function Class(){
     return(
-        <section className="class section" id="class">
+        <div>
+           <section className="class section" id="class">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 col-12 text-center mb-5">
@@ -42,6 +43,7 @@ export default function Class(){
         </div>
       </div>
     </div>
-  </section>
+  </section> 
+        </div>
     )
 }

@@ -1,6 +1,7 @@
 export default function Contact(){
- return(
-    <section className="contact section" id="contact">
+    return(
+        <div>
+         <section className="contact section" id="contact">
     <div className="container">
       <div className="row">
         <div className="ml-auto col-lg-5 col-md-6 col-12">
@@ -27,6 +28,7 @@ export default function Contact(){
         </div>
       </div>
     </div>
-  </section>
- )
+  </section>   
+        </div>
+    )
 }

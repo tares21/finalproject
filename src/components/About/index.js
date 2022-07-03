@@ -1,6 +1,7 @@
 export default function About(){
     return(
-        <section className="about section" id="about">
+        <div>
+            <section className="about section" id="about">
     <div className="container">
       <div className="row">
         <div className="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
@@ -37,5 +38,6 @@ export default function About(){
       </div>
     </div>
   </section>
+        </div>
     )
 }

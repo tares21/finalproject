@@ -1,6 +1,7 @@
 export default function Schedule(){
     return(
-        <section className="schedule section" id="schedule">
+        <div>
+           <section className="schedule section" id="schedule">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 col-12 text-center">
@@ -97,6 +98,7 @@ export default function Schedule(){
         </div>
       </div>
     </div>
-  </section>
+  </section> 
+        </div>
     )
 }

@@ -1,6 +1,7 @@
 export default function Modal(){
     return(
-        <div className="modal fade" id="membershipForm" tabIndex={-1} role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+        <div>
+         <div className="modal fade" id="membershipForm" tabIndex={-1} role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
     <div className="modal-dialog" role="document">
       <div className="modal-content">
         <div className="modal-header">
@@ -26,6 +27,7 @@ export default function Modal(){
         <div className="modal-footer" />
       </div>
     </div>
-  </div>
+  </div>   
+        </div>
     )
 }
